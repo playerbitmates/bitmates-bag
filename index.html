@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Neucha&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/styles.css">
+  <title>BitMate Bag Viewer</title>
+</head>
+<body>
+  <h1>Bitmate Bag Viewer</h1>
+
+  <div>
+    <input type="text" id="searchValue" style="width: 400px;" placeholder="Wallet address or ING">
+    <button onclick="performSearch()">Search</button>
+  </div>
+
+  <!-- Novo contêiner principal para Equipment e Inventory -->
+  <div class="main-container">
+    <h2>Equipment</h2>
+    <div class="container">
+      <div id="equipment-content" class="equipment-container">
+        <div class="equipment-set">
+            <div class="equipment-row">
+                <div class="equipment-item" id="earring1"></div>
+                <div class="equipment-item" id="ring2"></div>
+            </div>
+            <div class="equipment-row">
+                <div class="equipment-item" id="weapon1"></div>
+                <div class="equipment-item" id="belt1"></div>
+            </div>
+            <div class="equipment-row">
+                <div class="equipment-item" id="necklace1"></div>
+                <div class="equipment-item" id="ring1"></div>
+                <div class="equipment-item" id="boots1"></div>
+            </div>
+        </div>
+      </div>
+      <div class="equipment-container">
+        <div class="equipment-set">
+            <div class="equipment-row">
+                <div class="equipment-item" id="earring2"></div>
+                <div class="equipment-item" id="ring4"></div>
+            </div>
+            <div class="equipment-row">
+                <div class="equipment-item" id="weapon2"></div>
+                <div class="equipment-item" id="belt2"></div>
+            </div>
+            <div class="equipment-row">
+                <div class="equipment-item" id="necklace2"></div>
+                <div class="equipment-item" id="ring3"></div>
+                <div class="equipment-item" id="boots2"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Inventory</h2>
+    <div id="inventory-content-container" class="container">
+      <div class="inventory-container">
+          <div id="inventory-content" class="inventory-grid">
+              <!-- Create 36 slots inventory -->
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+              <div class="inventory-item"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="src/js/script.js"></script>
+</body>
+</html>
